@@ -1,0 +1,71 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: antiquewhite;
+}
+
+
+/* Header **/
+header{
+  color: white;
+  background-color: gray;
+  border: 1px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header a{
+  text-decoration: none;
+
+}
+
+header li{
+ display: inline;
+ padding-right: 24px;
+
+}
+
+header #branding{
+  background-color: gray;
+
+}
+
+header #branding h1{
+  background-color: gray;
+
+}
+
+header nav{
+ position: initial;
+ transform: translateX(0);
+ opacity: 1;
+ justify-content: flex-end;
+ align-items: center;
+ display:flex;
+
+}
+
+header .highlight, header .current a{
+  color:rgb(188, 205, 188);
+
+}
+
+header a:hover{
+  background-color: rgb(7, 66, 66);
+  color: rgb(222, 222, 240);
+}
+
+
+footer{
+  color:rgb(5, 23, 5);
+  background: gray;
+  text-align: center;
+  padding: auto;
+  padding: 4px;
+
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+    color:green;
+  }
+
