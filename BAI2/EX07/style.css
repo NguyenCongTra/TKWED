@@ -1,0 +1,155 @@
+body{
+   background-color:lightcyan;
+   font-size: 16px;
+   font-family:Arial, Helvetica, sans-serif;
+   
+  }
+  /*Global*/
+  .container{
+    color: rgb(83, 48, 48);
+   font-style: oblique;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-left: 100px;
+   padding-right: 100px;
+  }
+  ul{
+   padding-left:5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 5px;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+  .button_1{
+    background-color: rgb(199, 222, 223);
+    width:10%;
+    height: 15%;
+    float: right;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+  .dark{
+    background-color: rgb(179, 174, 174);
+  }
+  /* Header **/
+  header{
+    columns: 2;
+    background:gray;
+    color:white;
+    border-bottom: 3px solid rgb(44, 128, 44) ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    
+  }
+  
+  header a{
+    text-decoration: none;
+     
+  }
+  
+  header li{
+    display: inline-block;
+    padding-right: 25px;
+  }
+  
+  header #branding{
+    color:white;
+  font-size: 20px;
+  }
+  
+  header #branding h1{
+    color:white;
+  font-size: 20px;
+  
+  }
+  
+  header nav{
+   position: initial;
+   transform: translateX(0);
+   opacity: 1;
+   display:flex;
+   justify-content:flex-end;
+   align-items:center;
+  font-size: 18px;
+  }
+  
+  header .highlight, header .current a{
+    color: rgb(140, 172, 140);
+    font-size: 20px;
+  
+  }
+  
+  header a:hover{
+    background-color: aqua;
+    color:rgb(56, 56, 52);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  /* Showcase */
+  #showcase{
+    background-image: url(/Ma\ nguon\ cac\ bai\ tap/EX06/img/showcase.jpg);
+    height: 50vb;
+    border-radius: 4px;
+  }
+  
+  #showcase h1{
+   text-align: center;
+   color: aliceblue;
+   padding-top:150px;
+   margin:-10px;
+   font-size: 22px;
+  
+  }
+  #showcase p{
+   text-align: center;
+   color: aqua;
+   padding-bottom:-50px;
+   font-size: 15px;
+  }
+
+/* Newsletter */
+#newsletter{
+  background: gray;
+  margin-top: -20px;
+  border-radius: 4px;
+  border-top: 4px solid rgb(73, 179, 73);
+
+}
+
+#newsletter h1{
+  color:rgb(12, 14, 14);
+  margin-bottom: -40px;
+  margin-top: 40px;
+  height: 20%;
+}
+
+#newsletter form {
+  display:flex;
+  justify-content:flex-end;
+ 
+  
+}
+
+#newsletter input[type="email"]{
+  border-radius: 12px;
+  background-color:rgb(243, 234, 234);
+  width: 20%;
+  height: 15%;
+  margin-bottom: -30px;
+  margin-top: 20px;
+  margin-right: 2px;
+}
+
+
+footer{
+    background-color:Gray ;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
