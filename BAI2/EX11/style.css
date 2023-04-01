@@ -1,0 +1,238 @@
+body{
+  background-color:lightcyan;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+/* Global */
+.container{
+  color: rgb(83, 48, 48);
+  font-style: oblique;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  background-color: rgb(93, 170, 170);
+  
+  height: 38px;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: right;
+  border-radius: 4px;
+
+}
+
+.dark{
+  background-color: rgb(179, 174, 174);
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header **/
+header{
+  padding-top: 30px;
+  min-height: 70px;
+  background:gray;
+  color:white;
+  border-bottom: 3px solid rgb(44, 128, 44) ;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+}
+
+header a{
+  color: rgb(91, 105, 91);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  float:left;
+}
+
+header #branding{
+  float: left;
+  color:white;
+  font-size: 20px;
+}
+
+header #branding h1{
+  color:white;
+  font-size: 20px;
+  margin: 0;
+}
+
+header nav{
+  float:right;
+  margin-top: 10px;
+  position: initial;
+  transform: translateX(0);
+  opacity: 1;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+ font-size: 18px;
+}
+
+header .highlight, header .current a{
+  color: rgb(140, 172, 140);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header a:hover{
+  background-color: aqua;
+  color:rgb(56, 56, 52);
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  background-image: url('../img/showcase.jpg') ;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#showcase h1{
+  text-align: center;
+  color: aliceblue;
+  padding-top:100px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+#showcase p{
+  text-align: center;
+  color: aqua;
+  padding-bottom:-50px;
+  font-size: 20px;
+}
+
+/* Newsletter */
+#newsletter{
+background: gray;
+margin-top: -20px;
+border-radius: 4px;
+border-top: 4px solid rgb(73, 179, 73);
+padding: 15px;
+}
+
+#newsletter h1{
+  color:rgb(12, 14, 14);
+  margin-bottom: -40px;
+  height: 20%;
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+  display:flex;
+  justify-content:flex-end;
+}
+
+#newsletter input[type="email"]{
+  border-radius: 12px;
+  background-color:rgb(243, 234, 234);
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 20px;
+ 
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  color: rgb(18, 110, 110);
+  text-align: center;
+}
+
+#boxes .box img{
+  border-radius: 50%;
+  width:90px ;
+}
+
+/* Sidebar */
+aside#sidebar{
+ float: right;
+ width: 30%;
+ margin-top: 10px;
+ 
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+
+/* Main-col */
+article#main-col{
+  float: left;
+  width: 65%;
+  
+}
+/* Services */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: rgb(54, 71, 54) solid 1px;
+  margin-bottom: 5px;
+  background: rgb(160, 159, 159);
+}
+
+footer{
+  background-color:Gray ;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float: left;
+    text-align: center;
+    width: 100%;
+    
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+}
